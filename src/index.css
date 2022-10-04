@@ -1,6 +1,99 @@
+:root {
+  /* General colors */
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-brown-100: #F9F6EF;
+  --color-brown-300: #B6977E;
+  --color-brown-400: #A09277;
+  --color-brown-400-transparent: rgba(160,146,119,0.4);
+  --color-gold-100: #F8E1B3;
+  --color-gold-200: #debf8a;
+  --color-gold-300: #d0b07e;
+  --color-gold-400: #bd986a;
+  --color-gold-500: #ab7f54;
+
+  /* Home highlight colors */
+  --color-highlight-purple: #E0C6EF;
+  --color-highlight-pink: #EEC8DC;
+  --color-highlight-red: #ECC1B4;
+  --color-highlight-orange: #F7CFAB;
+  --color-highlight-yellow: #FFF1AF;
+
+  /* Project colors */
+  --color-green-base: #D3EBCC;
+  --color-green-shadow: #9BC38F;
+  --color-navy-base: #313976;
+  --color-navy-shadow: #171F58;
+  --color-pink-base: #F3D2E0;
+  --color-pink-shadow: #E9B8CC;
+  --color-light-blue-base: #AFD9F3;
+  --color-light-blue-shadow: #80B7D9;
+  --color-medium-blue-base: #4466AE;
+  --color-medium-blue-shadow: #1E418C;
+  --color-lavender-base: #D6CCFF;
+  --color-lavender-shadow: #B4AECC;
+
+  /* Font */
+  --font-size-default: 1.1rem;
+
+  /* Grid */
+  --grid-micro: 0.2rem;
+  --grid-xxsmall: 0.4rem;
+  --grid-xsmall: 0.6rem;
+  --grid-small: 0.8rem;
+  --grid-medium: 1rem;
+  --grid-large: 1.2rem;
+  --grid-xlarge: 1.5rem;
+  --grid-mega: 2rem;
+  --grid-page-width: 1045px;
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-size: var(--font-size-default);
+  color: var(--color-black);
+  background-color: var(--color-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Font Styles */
+h1, h2, h3, h4 {
+  font-family: scotch-deck, sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3.3rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: var(--font-size-default);
+  margin: 0;
+}
+
+/* set width and center */
+.page-container {
+  max-width: var(--grid-page-width);
+	margin: 0 auto;
 }

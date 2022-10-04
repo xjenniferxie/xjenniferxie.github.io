@@ -1,0 +1,125 @@
+/* HOME */
+
+.home-section {
+  padding-top: 4.25rem;
+  padding-bottom: 4rem;
+}
+
+.home-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 6rem;
+  margin-bottom: 2.25rem;
+}
+
+.home-header img {
+  margin-right: 2.25rem;
+  height: 210px;
+}
+
+.home-header h1 {
+  margin-bottom: var(--grid-small);
+}
+
+.home-header p {
+  margin-bottom: var(--grid-xlarge);
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--grid-xlarge);
+}
+
+.projects-grid-row {
+  display: flex;
+  flex-direction: row;
+  gap: var(--grid-xlarge);
+}
+
+/* ABOUT */
+
+.about-section, .contact-section {
+  padding: 3.5rem 0;
+}
+
+.about-section {
+  background-color: var(--color-brown-100);
+}
+
+.about-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-header img {
+  height: 46px;
+  -webkit-filter: drop-shadow(0 0 18px var(--color-brown-400-transparent));
+  filter: drop-shadow(0 0 12px var(--color-brown-400-transparent));
+}
+
+.about-header img:hover {
+  -webkit-filter: drop-shadow(0 0 18px var(--color-brown-400));
+  filter: drop-shadow(0 0 12px var(--color-brown-400));
+}
+
+.about-section p {
+  margin-top: var(--grid-small);
+  margin-bottom: var(--grid-mega);
+}
+
+.skills-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skills-item ul {
+  margin-top: var(--grid-small);
+  padding-inline-start: var(--grid-xlarge);
+}
+
+.skills-item h4 {
+  position: relative;
+  z-index: 0;
+  display: inline-flex; /* Make the width match text width */
+}
+
+.skills-item h4::before {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: 8px;
+  width: 100%;
+  height: 50%;
+  z-index: -1;
+}
+
+.skills-item h4.purple::before {
+  background-color: var(--color-highlight-purple);
+}
+
+.skills-item h4.pink::before {
+  background-color: var(--color-highlight-pink);
+}
+
+.skills-item h4.red::before {
+  background-color: var(--color-highlight-red);
+}
+
+.skills-item h4.orange::before {
+  background-color: var(--color-highlight-orange);
+}
+
+.skills-item h4.yellow::before {
+  background-color: var(--color-highlight-yellow);
+}
+
+/* CONTACT */
+
+.contact-section {
+  background-color: var(--color-brown-300);
+}
