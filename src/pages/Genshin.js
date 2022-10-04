@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 function Genshin() {
     return <div>Genshin</div>
 }
 
-export default Genshin;
+export default Genshin

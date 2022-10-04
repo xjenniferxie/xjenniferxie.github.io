@@ -1,17 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faSquareBehance, faSquareDribbble } from '@fortawesome/free-brands-svg-icons'
+
 
 import ProjectCard from 'components/ProjectCard.js'
 
 import headerIllustration from 'assets/home/header_illustration.png'
-import footerIllustration from 'assets/home/header_illustration.png'
+import footerIllustration from 'assets/home/footer_illustration.png'
 import resumeButton from 'assets/home/resume_button.png'
 import resumeHoverButton from 'assets/home/resume_button_hover.png'
 import resume from 'assets/home/Jennifer_Xie_Resume_2022.pdf'
 
 import 'pages/Home.css'
 
-
-const skillsLists = {
+const skillDetails = {
   'art': {
     title: 'Art',
     color: 'purple',
@@ -39,15 +42,47 @@ const skillsLists = {
   },
 }
 
+const contactDetails = {
+  'email': {
+    icon: faEnvelope,
+    text: 'xjenniferxie@gmail.com',
+    link: 'mailto:xjenniferxie@gmail.com'
+  },
+  'linkedin': {
+    icon: faLinkedin,
+    text: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/jennifer-xie'
+  },
+  'behance': {
+    icon: faSquareBehance,
+    text: 'Behance',
+    link: 'https://www.behance.net'
+  },
+  'dribbble': {
+    icon: faSquareDribbble,
+    text: 'Dribbble',
+    link: 'https://dribbble.com'
+  }
+}
+
 function SkillItem({ skill }) {
   return (
     <div className='skills-item'>
-      <h4 className={skillsLists[skill].color}>{skillsLists[skill].title}</h4>
+      <h4 className={skillDetails[skill].color}>{skillDetails[skill].title}</h4>
       <ul>
-        {skillsLists[skill].skills.map((s) => <li key={skill}>{s}</li>)}
+        {skillDetails[skill].skills.map((s) => <li key={skill}>{s}</li>)}
       </ul>
     </div>
-  );
+  )
+}
+
+function ContactItem({ type }) {
+  return (
+    <div className='contact-item'>
+      <FontAwesomeIcon icon={contactDetails[type].icon} className='fa-lg' />
+      <a href={contactDetails[type].link} target='_blank' rel='noreferrer'>{contactDetails[type].text}</a>
+    </div>
+  )
 }
 
 function Home() {
@@ -55,7 +90,7 @@ function Home() {
 
   return (
     <div className='home-page'>
-      <div className='home-section'>
+      <div className='home-section' id='home'>
         <div className='page-container'>
           <div className='home-header'>
             <img src={headerIllustration} alt='' />
@@ -68,7 +103,7 @@ function Home() {
             </div>
           </div>
 
-          <div className='projects-grid'>
+          <div className='projects-grid' id='projects'>
             <div className='projects-grid-row'>
               <ProjectCard project='genshin' />
               <ProjectCard project='mario' mode='dark' />
@@ -85,7 +120,7 @@ function Home() {
         </div>
       </div>
 
-      <div className='about-section'>
+      <div className='about-section' id='about'>
         <div className='page-container'>
           <div className='about-header'>
             <h2>About</h2>
@@ -104,19 +139,27 @@ function Home() {
             programming React Apps and APIs. Here’s an overview of my skillset:
           </p>
           <div className='skills-row'>
-            {Object.keys(skillsLists).map((k) => <SkillItem skill={k} />)}
+            {Object.keys(skillDetails).map((k) => <SkillItem skill={k} />)}
           </div>
         </div>
       </div>
 
-      <div className='contact-section'>
+      <div className='contact-section' id='contact'>
         <div className='page-container'>
-          <h2>Contact</h2>
+          <div className='contact-content'>
+            <div>
+              <h2>Contact</h2>
+              <div className='contact-column'>
+                {Object.keys(contactDetails).map((k) => <ContactItem type={k} />)}
+              </div>
+            </div>
+            <img src={footerIllustration} alt='' />
+          </div>
         </div>
       </div>
 
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home

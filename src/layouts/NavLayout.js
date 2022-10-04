@@ -1,21 +1,24 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom"
+import { HashLink } from 'react-router-hash-link'
 
-import 'layouts/NavLayout.css';
+import resume from 'assets/home/Jennifer_Xie_Resume_2022.pdf'
+
+import 'layouts/NavLayout.css'
 
 function NavigationBar() {
 	return (
 		<nav>
 			<div className='nav-container page-container'>
-				<Link to='/' className='home-nav-link'>Jennifer Xie</Link>
+				<HashLink to='/#home' className='home-nav-link'>Jennifer Xie</HashLink>
 				<div className='nav-menu'>
-					<Link to='/'>Projects</Link>
-					<Link to='/'>About</Link>
-					<Link to='/'>Resume</Link>
-					<Link to='/'>Contact</Link>
+					<HashLink to='/#projects'>Projects</HashLink>
+					<HashLink to='/#about'>About</HashLink>
+          <a href={resume} target='_blank' rel='noreferrer'>Resume</a>
+					<HashLink to='/#contact'>Contact</HashLink>
 				</div>
 			</div>
 		</nav>
-	);
+	)
 }
 
 function NavLayout() {
@@ -25,6 +28,6 @@ function NavLayout() {
       <Outlet />
     </div>
   )
-};
+}
 
-export default NavLayout;
+export default NavLayout

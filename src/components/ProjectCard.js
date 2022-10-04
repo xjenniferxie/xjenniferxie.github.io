@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from "react-router-dom"
 
 import genshinCard from 'assets/home/project_card_genshin.png'
 import marioCard from 'assets/home/project_card_mario.png'
@@ -65,7 +65,7 @@ function ProjectCard({project, size='large'}) {
       </div>
       <div className='project-card-selection' />
     </Link>
-  );
+  )
 }
 
-export default ProjectCard;
+export default ProjectCard

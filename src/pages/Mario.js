@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 function Mario() {
     return <div>Mario</div>
 }
 
-export default Mario;
+export default Mario

@@ -123,3 +123,41 @@
 .contact-section {
   background-color: var(--color-brown-300);
 }
+
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-content h2 {
+  margin-bottom: var(--grid-medium);
+}
+
+.contact-column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--grid-xsmall);
+}
+
+.contact-item {
+  color: var(--color-black);
+  font-weight: 600;
+}
+
+.contact-item svg, .contact-item a {
+  color: inherit;
+}
+
+.contact-item a {
+  margin-left: var(--grid-small);
+}
+
+.contact-item:hover, .contact-item:active {
+  color: var(--color-gold-100);
+}
+
+.contact-content img {
+  height: 235px;
+  padding: 0 6rem;
+}
