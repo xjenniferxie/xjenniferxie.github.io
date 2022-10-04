@@ -1,0 +1,114 @@
+/* GENERAL STYLES */
+
+.project-page h5 {
+  margin-top: 2.5rem;
+}
+
+.project-content p {
+  margin-top: var(--grid-xsmall);
+}
+
+/* Indent all lines except first line */
+.project-content p.numbered {
+  text-indent: calc(-1 * var(--grid-large));
+  padding-left: var(--grid-large);
+}
+
+.project-content img {
+  display: block;
+  max-width: 100%;
+  margin: var(--grid-xsmall) 0;
+}
+
+/* every p that has a p before */
+.project-content p + p {
+  margin-top: 0.3rem;
+}
+
+/* every p that has an img before */
+.project-content img + p {
+  margin-top: var(--grid-xlarge);
+}
+
+/* every img preceded by p */
+.project-content p + img {
+  margin-top: var(--grid-small);
+}
+
+/* PROJECT BANNER */
+
+.project-banner.genshin {
+  background-image: linear-gradient(to bottom, var(--color-green-base) 30%, var(--color-green-shadow));
+}
+
+.project-banner.mario {
+  background-image: linear-gradient(to bottom, var(--color-navy-base) 30%, var(--color-navy-shadow));
+}
+
+.project-banner.blackjack {
+  background-image: linear-gradient(to bottom, var(--color-pink-base) 30%, var(--color-pink-shadow));
+}
+
+.project-banner.opensource {
+  background-image: linear-gradient(to bottom, var(--color-light-blue-base) 30%, var(--color-light-blue-shadow));
+}
+
+.project-banner.kubernetes {
+  background-image: linear-gradient(to bottom, var(--color-medium-blue-base) 30%, var(--color-medium-blue-shadow));
+}
+
+.project-banner.capacity {
+  background-image: linear-gradient(to bottom, var(--color-lavender-base) 30%, var(--color-lavender-shadow));
+}
+
+.project-banner .page-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.project-banner img {
+  /* TODO not sure if this flex stuff is best way to do it or even necessary 
+  * could also just do display: block trick to prevent weird spacing */
+  width: 950px;
+  margin-top: 9rem;
+}
+
+.project-banner .project-banner-text {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+}
+
+.project-banner-text h2 {
+  margin-bottom: var(--grid-xlarge);
+}
+
+.project-banner-text p {
+  font-size: 1.3rem;
+}
+
+/* Dark mode */
+.project-banner-text.dark {
+  color: var(--color-white);
+}
+
+/* Double line text */
+.project-banner.genshin .project-banner-text {
+  width: 70%;
+}
+
+.project-banner.mario .project-banner-text {
+  width: 60%;
+}
+
+/* SIMILAR PROJECTS GRID */
+
+/* TODO temporary depends on if there's a footer or not */
+.similar-project-content {
+  margin-bottom: 3rem;
+}
+
+.similar-project-content h5 {
+  margin-bottom: var(--grid-small);
+}

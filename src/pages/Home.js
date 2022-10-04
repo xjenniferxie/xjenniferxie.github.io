@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faSquareBehance, faSquareDribbble } from '@fortawesome/free-brands-svg-icons'
-
 
 import ProjectCard from 'components/ProjectCard.js'
 
@@ -44,7 +43,7 @@ const skillDetails = {
 
 const contactDetails = {
   'email': {
-    icon: faEnvelope,
+    icon: faSquareEnvelope,
     text: 'xjenniferxie@gmail.com',
     link: 'mailto:xjenniferxie@gmail.com'
   },
@@ -68,7 +67,7 @@ const contactDetails = {
 function SkillItem({ skill }) {
   return (
     <div className='skills-item'>
-      <h4 className={skillDetails[skill].color}>{skillDetails[skill].title}</h4>
+      <h5 className={skillDetails[skill].color}>{skillDetails[skill].title}</h5>
       <ul>
         {skillDetails[skill].skills.map((s) => <li key={skill}>{s}</li>)}
       </ul>
@@ -106,14 +105,14 @@ function Home() {
           <div className='projects-grid' id='projects'>
             <div className='projects-grid-row'>
               <ProjectCard project='genshin' />
-              <ProjectCard project='mario' mode='dark' />
+              <ProjectCard project='mario' />
             </div>
             <div className='projects-grid-row'>
               <ProjectCard project='blackjack' />
               <ProjectCard project='opensource' />
             </div>
             <div className='projects-grid-row'>
-              <ProjectCard project='kubernetes' mode='dark' />
+              <ProjectCard project='kubernetes' />
               <ProjectCard project='capacity' />
             </div>
           </div>
@@ -123,7 +122,7 @@ function Home() {
       <div className='about-section' id='about'>
         <div className='page-container'>
           <div className='about-header'>
-            <h2>About</h2>
+            <h3>About</h3>
             <a href={resume} target='_blank' rel='noreferrer'>
               <img 
                 src={rButton} 
@@ -148,7 +147,7 @@ function Home() {
         <div className='page-container'>
           <div className='contact-content'>
             <div>
-              <h2>Contact</h2>
+              <h3>Contact</h3>
               <div className='contact-column'>
                 {Object.keys(contactDetails).map((k) => <ContactItem type={k} />)}
               </div>

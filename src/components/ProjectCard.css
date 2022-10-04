@@ -15,7 +15,7 @@
   color: var(--color-black);
 }
 
-.project-card h3 {
+.project-card h4 {
   margin-bottom: var(--grid-small);
 }
 
@@ -44,8 +44,8 @@
   color: var(--color-white);
 }
 
-/* Smaller state */
-.project-card-text.small h3 {
+/* Smaller state, same as h5 */
+.project-card-text.small h4 {
   font-size: 2rem;
   margin-bottom: var(--grid-xsmall);
 }

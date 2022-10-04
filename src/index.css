@@ -20,18 +20,18 @@
   --color-highlight-yellow: #FFF1AF;
 
   /* Project colors */
-  --color-green-base: #D3EBCC;
+  --color-green-base: #CEEAC5;
   --color-green-shadow: #9BC38F;
   --color-navy-base: #313976;
   --color-navy-shadow: #171F58;
   --color-pink-base: #F3D2E0;
   --color-pink-shadow: #E9B8CC;
   --color-light-blue-base: #AFD9F3;
-  --color-light-blue-shadow: #80B7D9;
+  --color-light-blue-shadow: #7CB8DD;
   --color-medium-blue-base: #4466AE;
   --color-medium-blue-shadow: #1E418C;
   --color-lavender-base: #D6CCFF;
-  --color-lavender-shadow: #B4AECC;
+  --color-lavender-shadow: #B0A6DC;
 
   /* Font */
   --font-size-default: 1.1rem;
@@ -65,7 +65,7 @@ a {
 }
 
 /* Font Styles */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: scotch-deck, sans-serif;
   font-weight: 600;
   margin: 0;
@@ -76,14 +76,18 @@ h1 {
 }
 
 h2 {
-  font-size: 3.3rem;
+  font-size: 3.6rem;
 }
 
 h3 {
-  font-size: 2.25rem;
+  font-size: 3.3rem;
 }
 
 h4 {
+  font-size: 2.25rem;
+}
+
+h5 {
   font-size: 2rem;
 }
 
@@ -97,3 +101,16 @@ p {
   max-width: var(--grid-page-width);
 	margin: 0 auto;
 }
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--grid-xlarge);
+}
+
+.projects-grid-row {
+  display: flex;
+  flex-direction: row;
+  gap: var(--grid-xlarge);
+}
+
