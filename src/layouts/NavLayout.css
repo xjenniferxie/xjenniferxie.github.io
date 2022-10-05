@@ -39,3 +39,84 @@ nav a:not(.home-nav-link) {
 nav a:hover, nav a:active {
   color: var(--color-gold-100);
 }
+
+.mobile-nav-menu, .mobile-nav-backdrop {
+  display: none;
+}
+
+.nav-container svg.fa-bars {
+  display: none;
+}
+
+.nav-container svg.fa-bars:hover {
+  color: var(--color-gold-100);
+}
+
+/* Mobile version */
+@media (max-width: 880px) {
+  .nav-container .nav-menu {
+    display: none;
+  }
+
+  .nav-container {
+    position: relative;
+  }
+
+  .nav-container svg.fa-bars {
+    display: block;
+    z-index: 5;
+  }
+
+  nav.expanded .mobile-nav-menu{
+    z-index: 4;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: var(--color-brown-300);
+    border-left-width: 2px; 
+    border-left-style: solid;
+    border-image: linear-gradient(to bottom, var(--color-gold-400), var(--color-gold-200), var(--color-gold-400)) 30;
+    display: flex;
+    flex-direction: column;
+    padding: 2.6rem var(--grid-medium);    
+  }
+
+  nav.expanded .mobile-nav-menu a {
+    padding: var(--grid-xsmall) 0;
+    text-indent: var(--grid-xsmall);
+  }
+
+  nav.expanded .mobile-nav-menu a:not(:last-child) {
+    border-bottom: 1px solid var(--color-gold-200);
+  }
+
+  nav.expanded .mobile-nav-backdrop {
+    z-index: 3;
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(70,62,44,0.8);
+
+    -webkit-animation: fadein 0.8s;
+    animation: fadein 0.8s;
+  }
+  
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+}

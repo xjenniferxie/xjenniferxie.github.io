@@ -149,3 +149,75 @@
   height: 235px;
   padding: 0 6rem;
 }
+
+/* Responsive styles */
+
+/* Less than --grid-page-width */
+@media (max-width: 1045px) {
+  .home-header {
+    padding: 0 var(--grid-medium);
+  }
+
+  .home-header img {
+    margin-right: var(--grid-medium);
+  }
+
+  .contact-content img {
+    padding: 0 var(--grid-mega);
+  }
+}
+
+/* Mobile version */
+@media (max-width: 880px) {
+  .home-section, .about-section, .contact-section {
+    padding: var(--grid-mega) 0;
+  }
+
+  .home-header {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: var(--grid-xlarge);
+  }
+
+  .home-header img {
+    /* display: none; */
+    /* align-self: center; */
+  }
+
+  .home-header h1 {
+    margin: var(--grid-small) 0;
+  }
+
+  .home-header p {
+    margin-bottom: 0;
+  }
+
+  .about-section p {
+    margin-bottom: var(--grid-xlarge);
+  }
+
+  .skills-row {
+    flex-direction: column;
+  }
+
+  .skills-item ul {
+    margin-top: var(--grid-xxsmall);
+  }
+
+  .contact-content {
+    flex-direction: column;
+    gap: var(--grid-large);
+  }
+
+  .contact-content img {
+    max-width: 525px;
+    height: auto;
+  }
+
+  .contact-column {
+    gap: var(--grid-xxsmall);
+  }
+}

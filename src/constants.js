@@ -33,7 +33,7 @@ const projectDetails = {
   'blackjack': {
     cardImage: blackjackCard,
     bannerImage: blackjackBanner,
-    title: 'Fantasy Blackjack Icons',
+    title: 'Fantasy Blackjack Game Assets',
     company: 'Personal Project',
     year: '2022',
     mode: 'light',

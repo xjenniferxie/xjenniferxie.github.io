@@ -22,7 +22,7 @@ img.opensource-introduction-item {
   flex-direction: row;
   background-color: #EBF5FB;
   border: 2px solid #A3D6F6;
-  border-radius: 8px;
+  border-radius: 9px;
   padding: var(--grid-medium) var(--grid-large);
   margin-top: var(--grid-small);
 }
