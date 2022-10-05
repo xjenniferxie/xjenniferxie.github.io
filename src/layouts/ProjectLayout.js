@@ -33,7 +33,7 @@ function getProjectContent(project) {
 
 function ProjectBanner({ project }) {
   return (
-    <div className={`project-banner ${project}`}>
+    <div className={`project-banner ${project} gold-border-bottom`}>
       <div className='page-container'>
         <img src={projectDetails[project].bannerImage} alt='' />
         <div className={`project-banner-text ${projectDetails[project].mode}`}>

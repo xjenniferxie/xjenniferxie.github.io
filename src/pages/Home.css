@@ -45,12 +45,12 @@
 
 .about-header img {
   height: 46px;
-  -webkit-filter: drop-shadow(0 0 18px var(--color-brown-400-transparent));
+  -webkit-filter: drop-shadow(0 0 12px var(--color-brown-400-transparent));
   filter: drop-shadow(0 0 12px var(--color-brown-400-transparent));
 }
 
 .about-header img:hover {
-  -webkit-filter: drop-shadow(0 0 18px var(--color-brown-400));
+  -webkit-filter: drop-shadow(0 0 12px var(--color-brown-400));
   filter: drop-shadow(0 0 12px var(--color-brown-400));
 }
 
@@ -76,7 +76,7 @@
   display: inline-flex; /* Make the width match text width */
 }
 
-.skills-item h4::before {
+.skills-item h5::before {
   content: '';
   position: absolute;
   bottom: 1px;
@@ -86,23 +86,23 @@
   z-index: -1;
 }
 
-.skills-item h4.purple::before {
+.skills-item h5.purple::before {
   background-color: var(--color-highlight-purple);
 }
 
-.skills-item h4.pink::before {
+.skills-item h5.pink::before {
   background-color: var(--color-highlight-pink);
 }
 
-.skills-item h4.red::before {
+.skills-item h5.red::before {
   background-color: var(--color-highlight-red);
 }
 
-.skills-item h4.orange::before {
+.skills-item h5.orange::before {
   background-color: var(--color-highlight-orange);
 }
 
-.skills-item h4.yellow::before {
+.skills-item h5.yellow::before {
   background-color: var(--color-highlight-yellow);
 }
 

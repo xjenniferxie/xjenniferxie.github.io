@@ -2,6 +2,11 @@
 
 .project-page h5 {
   margin-top: 2.5rem;
+  margin-bottom: var(--grid-xsmall);
+}
+
+.project-content h6 {
+  margin-top: var(--grid-small);
 }
 
 .project-content p {
@@ -14,25 +19,39 @@
   padding-left: var(--grid-large);
 }
 
-.project-content img {
+.project-content img, .project-content video {
   display: block;
   max-width: 100%;
   margin: var(--grid-xsmall) 0;
 }
 
-/* every p that has a p before */
-.project-content p + p {
+.project-content video {
+  -webkit-filter: drop-shadow(0 0 12px var(--color-black-transparent));
+  filter: drop-shadow(0 0 12px var(--color-black-transparent));
+}
+
+/* every p that has a p or h6 before */
+.project-content p + p, .project-content h6 + p {
   margin-top: 0.3rem;
 }
 
-/* every p that has an img before */
-.project-content img + p {
+/* every p that has an img or video before */
+.project-content img + p, .project-content video + p {
   margin-top: var(--grid-xlarge);
 }
 
-/* every img preceded by p */
+/* every img that has a p before */
 .project-content p + img {
   margin-top: var(--grid-small);
+}
+
+.project-content a {
+  color: var(--color-blue-link);
+  text-decoration: underline; /* TODO: prettier underline */
+}
+
+.project-content a:hover, .project-content a:active {
+  color: var(--color-medium-blue-shadow);
 }
 
 /* PROJECT BANNER */
@@ -93,7 +112,7 @@
   color: var(--color-white);
 }
 
-/* Double line text */
+/* Double line text customization */
 .project-banner.genshin .project-banner-text {
   width: 70%;
 }

@@ -89,7 +89,7 @@ function Home() {
 
   return (
     <div className='home-page'>
-      <div className='home-section' id='home'>
+      <div className='home-section gold-border-bottom'>
         <div className='page-container'>
           <div className='home-header'>
             <img src={headerIllustration} alt='' />
@@ -119,7 +119,7 @@ function Home() {
         </div>
       </div>
 
-      <div className='about-section' id='about'>
+      <div className='about-section gold-border-bottom' id='about'>
         <div className='page-container'>
           <div className='about-header'>
             <h3>About</h3>
@@ -135,7 +135,7 @@ function Home() {
           <p>
             I specialize in UI/UX design, but my skills span a broad spectrum—
             I have experience in everything from drawing illustrations to 
-            programming React Apps and APIs. Here’s an overview of my skillset:
+            programming React Apps and APIs. Here's an overview of my skillset:
           </p>
           <div className='skills-row'>
             {Object.keys(skillDetails).map((k) => <SkillItem skill={k} />)}

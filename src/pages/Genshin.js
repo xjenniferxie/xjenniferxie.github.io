@@ -11,7 +11,7 @@ function Genshin() {
       <p>
         Genshin Impact has a “Teapot” home system, where players can craft 
         furniture, decorate their home realm, and redeem rewards. However, 
-        there are mutiple user experience problems with the Teapot’s menu.
+        there are mutiple user experience problems with the Teapot's menu.
       </p>
 
       <h5>Pain Points</h5>
@@ -29,12 +29,12 @@ function Genshin() {
 
       <h5>Solution</h5>
       <p className='numbered'>
-        <b>1.</b> Repurpose the HUD’s existing Teapot icon. The Teapot icon will 
-        now open a menu that lets you navigate between all of Tubby’s old 
-        menus and the Teapot icon’s original Acheivements menu.
+        <b>1.</b> Repurpose the HUD's existing Teapot icon. The Teapot icon will 
+        now open a menu that lets you navigate between all of Tubby's old 
+        menus and the Teapot icon's original Acheivements menu.
       </p>
       <p className='numbered'>
-        <b>2.</b> Modify the Realm Depot layout to be similar to Genshin Impact’s 
+        <b>2.</b> Modify the Realm Depot layout to be similar to Genshin Impact's 
         inventory layout, where items are in a grid and detailed information 
         is shown for the selected item. Add filters and sorting.
       </p>
@@ -44,7 +44,7 @@ function Genshin() {
       <p>
         The new scroll background indicates that you are in a Teapot-focused 
         menu, while the stylization of the tabs, items, and dropdowns remains 
-        consistent with other areas of Genshin Impact’s UI.
+        consistent with other areas of Genshin Impact's UI.
       </p>
       <img src={teapotRendered1} alt='Genshin Teapot UI' />
       <img src={teapotRendered2} alt='Genshin Teapot UI with filter dropdown' />

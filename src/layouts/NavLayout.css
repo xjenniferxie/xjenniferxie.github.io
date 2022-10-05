@@ -7,7 +7,7 @@ nav {
 	background-color: var(--color-brown-300);
   border-bottom-width: 2px; 
   border-bottom-style: solid;
-  border-image: linear-gradient(to right, var(--color-gold-300), var(--color-gold-100), var(--color-gold-300)) 30;
+  border-image: linear-gradient(to right, var(--color-gold-400), var(--color-gold-200), var(--color-gold-400)) 30;
 }
 
 .nav-container {
