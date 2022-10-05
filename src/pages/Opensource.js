@@ -11,26 +11,31 @@ import 'pages/Opensource.css'
 function Opensource() {
   return (
     <div className='project-content'>
-      <h5>Introduction</h5>
-      <p>
-        <a href='https://opensource.twitter.dev' target='_blank' rel='noreferrer'>
-          opensource.twitter.com
-        </a> is the public-facing website for all things related to Open Source at 
-        Twitter. However, the website was extremely outdated.
-      </p>
-      <p>
-        As an intern at Twitter, my project was to redesign and build a new version 
-        of <a href='https://opensource.twitter.dev' target='_blank' rel='noreferrer'>
-          opensource.twitter.com
-        </a>.
-      </p>
-      <h6>Goals</h6>
-      <p className='numbered'>
-        1. Improve the website’s functionality and content.
-      </p>
-      <p className='numbered'>
-        2. Give the website the “look and feel” of Twitter’s branding.
-      </p>
+      <div className='opensource-introduction'>
+        <div className='opensource-introduction-item'>
+          <h5>Introduction</h5>
+          <p>
+            <a href='https://opensource.twitter.dev' target='_blank' rel='noreferrer'>
+              opensource.twitter.com
+            </a> is the public-facing website for all things related to Open Source at 
+            Twitter. However, when I joined Twitter, the website was extremely outdated.
+          </p>
+          <p>
+            As an intern, my project was to redesign and build a new version 
+            of <a href='https://opensource.twitter.dev' target='_blank' rel='noreferrer'>
+              opensource.twitter.com
+            </a>.
+          </p>
+          <h6>Goals</h6>
+          <p className='numbered'>
+            1. Improve the website’s functionality and content.
+          </p>
+          <p className='numbered'>
+            2. Give the website the “look and feel” of Twitter’s branding.
+          </p>
+        </div>
+        <img src={opensourceOriginal} alt='' className='opensource-introduction-item' />
+      </div>
 
       <h5>Lo-fi Mockups</h5>
       <p>
@@ -55,11 +60,17 @@ function Opensource() {
       <img src={opensourceHifi2} alt='' />
 
       <h5>Final Website</h5>
+      <p>
+        I built the site's front-end using HTML/CSS/Javascript and Twitter's 
+        internal design system, and another intern wrote the back-end scripts 
+        to populate each project's information.
+      </p>
       <div className='callout'>
-        <img src={starIcon} alt='' />
-        <p><b>Check it out: <a href='https://opensource.twitter.dev' target='_blank' rel='noreferrer'>
+        <img src={starIcon} alt='' className='icon' />
+        <div className='callout-text'>
+          Check it out: <a href='https://opensource.twitter.dev' target='_blank' rel='noreferrer'>
           opensource.twitter.com
-        </a></b></p>
+        </a></div>
       </div>
     </div>
   )

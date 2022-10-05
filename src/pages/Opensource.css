@@ -1,0 +1,37 @@
+.opensource-introduction {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.project-page .opensource-introduction-item h5 {
+  margin-top: 0;
+}
+
+.project-content img.icon, .project-content img.opensource-introduction-item {
+  margin: 0;
+}
+
+img.opensource-introduction-item {
+  height: 280px;
+}
+
+.callout {
+  display: flex;
+  flex-direction: row;
+  background-color: #EBF5FB;
+  border: 2px solid #A3D6F6;
+  border-radius: 8px;
+  padding: var(--grid-medium) var(--grid-large);
+  margin-top: var(--grid-small);
+}
+
+.project-content img.icon {
+  margin-right: var(--grid-xsmall);
+  height: 1.4rem;
+}
+
+.callout-text {
+  font-weight: 700;
+}
