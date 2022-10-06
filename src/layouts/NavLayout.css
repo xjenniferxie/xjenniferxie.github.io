@@ -52,7 +52,7 @@ nav a:hover, nav a:active {
   color: var(--color-gold-100);
 }
 
-/* Mobile version */
+/* Tablet mobile version */
 @media (max-width: 880px) {
   .nav-container .nav-menu {
     display: none;

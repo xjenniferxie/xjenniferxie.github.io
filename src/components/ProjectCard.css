@@ -64,3 +64,16 @@
     left: 1.7rem;
   }
 }
+
+/* Phone mobile version */
+@media (max-width: 532px) {
+  .project-card-text h4, .project-card-text.small h4 {
+    font-size: 1.7rem;
+    margin-bottom: var(--grid-xxsmall);
+  }
+
+  .project-card-text {
+    top: var(--grid-large);
+    left: 1.4rem;
+  }
+}

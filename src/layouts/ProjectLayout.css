@@ -131,13 +131,24 @@
 
 /* RESPONSIVE STYLES */
 
+/* Tablet mobile version */
 @media (max-width: 880px) {
-  .project-banner img {
-    width: 100%;
-  }
-
   .project-banner .project-banner-text {
     top: var(--grid-mega);
+  }
+
+  .project-banner-text h2 {
+    font-size: 2.6rem;
+    margin-bottom: var(--grid-small);
+  }
+
+  .project-banner img {
+    width: 100%;
+    margin-top: 7rem;
+  }
+
+  .project-page h5 {
+    margin-top: var(--grid-mega);
   }
 
   .similar-project-content {
@@ -145,19 +156,38 @@
   }
 }
 
-@media (max-width: 780px) {
-  .project-banner-text h2 {
-    margin-bottom: var(--grid-small);
-  }
-}
-
-@media (max-width: 548px) {
+/* Phone mobile version */
+@media (max-width: 532px) {
   .project-banner.genshin .project-banner-text, .project-banner.mario .project-banner-text {
     width: 100%;
   }
 
+  .project-banner .project-banner-text {
+    top: var(--grid-large);
+  }
+
+  .project-banner-text h2 {
+    font-size: 2rem;
+  }
+
+  .project-banner-text p {
+    font-size: var(--font-size-default);
+  }
+
   .project-page h5 {
-    margin-top: var(--grid-mega);
+    font-size: 1.5rem;
+    margin-bottom: var(--grid-xxsmall);
+    margin-top: var(--grid-large);
+  }
+
+  /* every p that has a h5 before */
+  .project-page h5 + p {
+    margin-top: var(--grid-xxsmall);
+  }
+
+  /* every p that has an img or video before */
+  .project-content img + p, .project-content video + p {
+    margin-top: var(--grid-medium);
   }
 
   .similar-project-content {

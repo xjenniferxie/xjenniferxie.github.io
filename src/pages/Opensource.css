@@ -38,10 +38,12 @@ img.opensource-introduction-item {
 
 /* RESPONSIVE STYLES */
 
+/* Tablet mobile version */
 @media (max-width: 880px) {
   .opensource-introduction {
     flex-direction: column;
     gap: var(--grid-small);
+    margin-top: var(--grid-mega);
   }
 
   img.opensource-introduction-item {
@@ -50,7 +52,12 @@ img.opensource-introduction-item {
   }
 }
 
-@media (max-width: 548px) {
+/* Phone mobile version */
+@media (max-width: 532px) {
+  .opensource-introduction {
+    margin-top: var(--grid-large);
+  }
+
   img.opensource-introduction-item {
     width: auto;
   }
