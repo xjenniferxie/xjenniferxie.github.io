@@ -89,7 +89,7 @@ function Home() {
 
   return (
     <div className='home-page'>
-      <div className='home-section gold-border-bottom'>
+      <div className='home-section gold-border-bottom' id='home'>
         <div className='page-container'>
           <div className='home-header'>
             <img src={headerIllustration} alt='' />

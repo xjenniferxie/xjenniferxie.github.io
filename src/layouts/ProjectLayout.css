@@ -180,6 +180,10 @@
     margin-top: var(--grid-large);
   }
 
+  .similar-project-content h5 {
+    margin-bottom: var(--grid-xsmall);
+  }
+
   /* every p that has a h5 before */
   .project-page h5 + p {
     margin-top: var(--grid-xxsmall);
