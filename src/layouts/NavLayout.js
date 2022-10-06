@@ -19,7 +19,7 @@ function NavigationBar() {
 	return (
 		<nav className={`${isNavExpanded ? 'expanded' : ''}`}>
 			<div className='nav-container page-container'>
-				<HashLink to='/#home' className='home-nav-link'>Jennifer Xie</HashLink>
+				<HashLink to='/#top' className='home-nav-link'>Jennifer Xie</HashLink>
         <FontAwesomeIcon 
           icon={faBars} 
           className='fa-lg' 
@@ -33,7 +33,7 @@ function NavigationBar() {
 				</div>
 			</div>
       <div className='mobile-nav-menu'>
-        <HashLink to='/#home' onClick={() => reverseExpanded()}>Home</HashLink>
+        <HashLink to='/#top' onClick={() => reverseExpanded()}>Home</HashLink>
         <HashLink to='/#projects' onClick={() => reverseExpanded()}>Projects</HashLink>
         <HashLink to='/#about' onClick={() => reverseExpanded()}>About</HashLink>
         <a href={resume} target='_blank' rel='noreferrer' onClick={() => reverseExpanded()}>Resume</a>
