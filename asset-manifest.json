@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8fcd3124.css",
-    "main.js": "/static/js/main.5118cc59.js",
+    "main.js": "/static/js/main.691cde07.js",
     "static/js/787.8f1436d7.chunk.js": "/static/js/787.8f1436d7.chunk.js",
     "static/media/teapot_painpoint1.png": "/static/media/teapot_painpoint1.40a603a705be32f21d13.png",
     "static/media/teapot_rendered1.png": "/static/media/teapot_rendered1.87d565d3551e8a8420d4.png",
@@ -10,7 +10,7 @@
     "static/media/capacity_hifi_mockup.png": "/static/media/capacity_hifi_mockup.ea9656b17e5f004f5eed.png",
     "static/media/teapot_wireframe.png": "/static/media/teapot_wireframe.ae212862554fc1d48f46.png",
     "static/media/project_banner_mario.png": "/static/media/project_banner_mario.0b054f5d3391fe3cd800.png",
-    "static/media/mario_2.png": "/static/media/mario_2.83f9654a49a3ac610c8f.png",
+    "static/media/mario_2.png": "/static/media/mario_2.2483d9860939e6b22d94.png",
     "static/media/teapot_painpoint2.png": "/static/media/teapot_painpoint2.d050fac54ef6a5c84a19.png",
     "static/media/mario_3.png": "/static/media/mario_3.d6f66aab17768af463f1.png",
     "static/media/opensource_hifi2.png": "/static/media/opensource_hifi2.792eb00cb3954ff86e4e.png",
@@ -45,11 +45,11 @@
     "index.html": "/index.html",
     "static/media/star_icon.svg": "/static/media/star_icon.3416b9140d27f4bb72f1d54f25b4b1ce.svg",
     "main.8fcd3124.css.map": "/static/css/main.8fcd3124.css.map",
-    "main.5118cc59.js.map": "/static/js/main.5118cc59.js.map",
+    "main.691cde07.js.map": "/static/js/main.691cde07.js.map",
     "787.8f1436d7.chunk.js.map": "/static/js/787.8f1436d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8fcd3124.css",
-    "static/js/main.5118cc59.js"
+    "static/js/main.691cde07.js"
   ]
 }
