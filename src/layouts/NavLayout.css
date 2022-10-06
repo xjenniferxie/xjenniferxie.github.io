@@ -106,8 +106,8 @@ nav a:hover, nav a:active {
     width: 100vw;
     background-color: rgba(70,62,44,0.8);
 
-    -webkit-animation: fadein 0.8s;
-    animation: fadein 0.8s;
+    -webkit-animation: fadein 0.5s;
+    animation: fadein 0.5s;
   }
   
   @keyframes fadein {

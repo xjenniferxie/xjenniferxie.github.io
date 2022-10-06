@@ -35,3 +35,23 @@ img.opensource-introduction-item {
 .callout-text {
   font-weight: 700;
 }
+
+/* RESPONSIVE STYLES */
+
+@media (max-width: 880px) {
+  .opensource-introduction {
+    flex-direction: column;
+    gap: var(--grid-small);
+  }
+
+  img.opensource-introduction-item {
+    height: auto;
+    width: 410px;
+  }
+}
+
+@media (max-width: 548px) {
+  img.opensource-introduction-item {
+    width: auto;
+  }
+}

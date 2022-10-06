@@ -142,7 +142,7 @@ img {
   z-index: 1;
 }
 
-/* Responsive styles */
+/* RESPONSIVE STYLES */
 
 /* Less than --grid-page-width + (--grid-xlarge * 2) */
 @media (max-width: 1093px) {
@@ -164,11 +164,20 @@ img {
   }
 
   .projects-grid {
-    max-width: 500px;
     margin: 0 auto;
   }
 
   .projects-grid-row {
     flex-direction: column;
   }
+}
+
+@media (max-width: 780px) {
+  h2 {
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 548px) {
+
 }

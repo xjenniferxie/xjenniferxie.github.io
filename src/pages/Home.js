@@ -55,12 +55,12 @@ const contactDetails = {
   'behance': {
     icon: faSquareBehance,
     text: 'Behance',
-    link: 'https://www.behance.net'
+    link: 'https://www.behance.net/xjenniferx150a'
   },
   'dribbble': {
     icon: faSquareDribbble,
     text: 'Dribbble',
-    link: 'https://dribbble.com'
+    link: 'https://dribbble.com/xjenniferxie'
   }
 }
 
