@@ -16,8 +16,8 @@ function Genshin() {
 
       <h5>Pain Points</h5>
       <p className='numbered'>
-        <b>1.</b> Opening the different Teapot menus requires you to talk the NPC 
-        Tubby. You need to go through an unnecessary number of steps to 
+        <b>1.</b> Opening the different Teapot menus requires you to talk to the 
+        NPC Tubby. You need to go through an unnecessary number of steps to 
         navigate between each Teapot menu:
       </p>
       <img src={teapotPainpoint1} alt='Explanation of current Genshin Teapot system' />
