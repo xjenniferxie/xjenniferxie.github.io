@@ -27,7 +27,7 @@ const skillDetails = {
   'gamedev': {
     title: 'Game Dev',
     color: 'red',
-    skills: ['Unity', 'C#', 'C++']
+    skills: ['Unity', 'C#', 'C++', 'Lua']
   },
   'frontend': {
     title: 'Front-end',
