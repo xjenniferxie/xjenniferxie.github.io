@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1a827fe7.css",
-    "main.js": "/static/js/main.840043ce.js",
+    "main.js": "/static/js/main.e8aab9af.js",
     "static/js/787.8f1436d7.chunk.js": "/static/js/787.8f1436d7.chunk.js",
     "static/media/teapot_painpoint1.png": "/static/media/teapot_painpoint1.40a603a705be32f21d13.png",
     "static/media/teapot_rendered1.png": "/static/media/teapot_rendered1.87d565d3551e8a8420d4.png",
@@ -37,18 +37,18 @@
     "static/media/header_illustration.png": "/static/media/header_illustration.2bad3a7ec0ea46d50949.png",
     "static/media/capacity_user_research.png": "/static/media/capacity_user_research.93718d02ba01085bc997.png",
     "static/media/opensource_lofi2.png": "/static/media/opensource_lofi2.5a173b50ecdc43a7cb97.png",
-    "static/media/Jennifer_Xie_Resume_2022.pdf": "/static/media/Jennifer_Xie_Resume_2022.7f5eb7f0d9bd7f62a995.pdf",
+    "static/media/Jennifer_Xie_Resume_2022.pdf": "/static/media/Jennifer_Xie_Resume_2022.9dfe79da1f1ee1584285.pdf",
     "static/media/opensource_original.png": "/static/media/opensource_original.a6adf161b93b6d770f4f.png",
     "static/media/resume_button.png": "/static/media/resume_button.1a54f75d0374b0a9cdff.png",
     "static/media/resume_button_hover.png": "/static/media/resume_button_hover.dcdbff90840295da85ad.png",
     "index.html": "/index.html",
     "static/media/star_icon.svg": "/static/media/star_icon.3416b9140d27f4bb72f1d54f25b4b1ce.svg",
     "main.1a827fe7.css.map": "/static/css/main.1a827fe7.css.map",
-    "main.840043ce.js.map": "/static/js/main.840043ce.js.map",
+    "main.e8aab9af.js.map": "/static/js/main.e8aab9af.js.map",
     "787.8f1436d7.chunk.js.map": "/static/js/787.8f1436d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a827fe7.css",
-    "static/js/main.840043ce.js"
+    "static/js/main.e8aab9af.js"
   ]
 }
