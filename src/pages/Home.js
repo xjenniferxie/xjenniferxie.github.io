@@ -108,12 +108,12 @@ function Home() {
               <ProjectCard project='mario' />
             </div>
             <div className='projects-grid-row'>
-              <ProjectCard project='blackjack' />
+              <ProjectCard project='kubernetes' />
               <ProjectCard project='opensource' />
             </div>
             <div className='projects-grid-row'>
-              <ProjectCard project='kubernetes' />
               <ProjectCard project='capacity' />
+              <ProjectCard project='placeholder' />
             </div>
           </div>
         </div>

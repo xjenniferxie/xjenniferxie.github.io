@@ -39,6 +39,24 @@
   border: 3px solid var(--color-brown-100);
 }
 
+/* TODO temporary for placeholder */
+.project-card.placeholder {
+  box-shadow: none;
+}
+
+.project-card.placeholder .project-card-text {
+  display: none;
+}
+
+.project-card.placeholder:hover {
+  box-shadow: none;
+}
+
+.project-card.placeholder:hover .project-card-selection {
+  display: none;
+}
+/* end -- TODO temporary for placeholder */
+
 /* Dark mode */
 .project-card-text.dark {
   color: var(--color-white);
@@ -64,6 +82,14 @@
     left: 1.7rem;
   }
 }
+
+/* TODO temporary for placeholder */
+@media (max-width: 880px) {
+  .project-card.placeholder {
+    display: none;
+  }
+}
+/* end -- TODO temporary for placeholder */
 
 /* Phone mobile version */
 @media (max-width: 532px) {

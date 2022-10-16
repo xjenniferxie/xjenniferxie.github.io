@@ -2,7 +2,8 @@ import genshinCard from 'assets/common/project_card_genshin.png'
 import genshinBanner from 'assets/common/project_banner_genshin.png'
 import marioCard from 'assets/common/project_card_mario.png'
 import marioBanner from 'assets/common/project_banner_mario.png'
-import blackjackCard from 'assets/common/project_card_blackjack.png'
+import placeholderCard from 'assets/common/project_card_placeholder.png'
+// import blackjackCard from 'assets/common/project_card_blackjack.png'
 import blackjackBanner from 'assets/common/project_banner_blackjack.png'
 import opensourceCard from 'assets/common/project_card_opensource.png'
 import opensourceBanner from 'assets/common/project_banner_opensource.png'
@@ -19,7 +20,8 @@ const projectDetails = {
     company: 'Personal Project',
     year: '2022',
     mode: 'light',
-    similarProjects: ['mario', 'blackjack']
+    similarProjects: ['mario', 'opensource']
+    // similarProjects: ['mario', 'blackjack']
   },
   'mario': {
     cardImage: marioCard,
@@ -28,14 +30,24 @@ const projectDetails = {
     company: 'Personal Project',
     year: '2022',
     mode: 'dark',
-    similarProjects: ['genshin', 'blackjack']
+    similarProjects: ['genshin', 'opensource']
+    // similarProjects: ['genshin', 'blackjack']
   },
-  'blackjack': {
-    cardImage: blackjackCard,
+  // 'blackjack': {
+  //   cardImage: blackjackCard,
+  //   bannerImage: blackjackBanner,
+  //   title: 'Fantasy Blackjack Game Assets',
+  //   company: 'Personal Project',
+  //   year: '2022',
+  //   mode: 'light',
+  //   similarProjects: ['genshin', 'mario']
+  // },
+  'placeholder': {
+    cardImage: placeholderCard,
     bannerImage: blackjackBanner,
-    title: 'Fantasy Blackjack Game Assets',
-    company: 'Personal Project',
-    year: '2022',
+    title: '',
+    company: '',
+    year: '',
     mode: 'light',
     similarProjects: ['genshin', 'mario']
   },

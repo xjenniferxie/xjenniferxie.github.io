@@ -4,9 +4,10 @@ import projectDetails from 'constants.js'
 
 import 'components/ProjectCard.css'
 
+// TODO remove project from className after removing placeholder functionality
 function ProjectCard({project, size='large'}) {
   return (
-    <Link to={`/${project}`} className='project-card'>
+    <Link to={`/${project}`} className={`project-card ${project}`}>
       <img src={projectDetails[project].cardImage} alt='' />
       <div className={`project-card-text ${size} ${projectDetails[project].mode}`}>
         <h4>{projectDetails[project].title}</h4>
