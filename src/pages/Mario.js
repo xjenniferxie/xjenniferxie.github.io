@@ -27,7 +27,7 @@ function Mario() {
       <img src={mario2} alt='Mario Kart select vehicle gear screen' />
       <img src={mario3} alt='Mario Kart select race gear screen' />
 
-      <h5>Style Sheet</h5>
+      <h5>Style Guide</h5>
       <img src={marioStylesheet} alt='Style sheet of Mario Kart colors, buttons, and selections' />
     </div>
   )
