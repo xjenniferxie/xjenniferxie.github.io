@@ -134,7 +134,7 @@ function Home() {
           </div>
           <p>
             I specialize in UI/UX design, but my skills span a broad spectrum—
-            I have experience in everything from drawing illustrations to 
+            I have experience in everything from graphic design to 
             programming React Apps and APIs. Here's an overview of my skillset:
           </p>
           <div className='skills-row'>
