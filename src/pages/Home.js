@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faSquareBehance, faSquareDribbble } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import ProjectCard from 'components/ProjectCard.js'
 
@@ -15,29 +15,24 @@ import 'pages/Home.css'
 
 const skillDetails = {
   'art': {
-    title: 'Art',
+    title: 'UI Art',
     color: 'purple',
     skills: ['Photoshop', 'Illustrator']
   },
-  'ui': {
-    title: 'UI/UX',
+  'design': {
+    title: 'UX Design',
     color: 'pink',
-    skills: ['Figma', 'Sketch']
+    skills: ['Figma']
   },
-  'gamedev': {
-    title: 'Game Dev',
+  'dev': {
+    title: 'UI Development',
     color: 'red',
-    skills: ['Unity', 'C#', 'C++', 'Lua']
+    skills: ['Unity', 'C#', 'Lua']
   },
-  'frontend': {
-    title: 'Front-end',
-    color: 'orange',
-    skills: ['HTML', 'CSS', 'Javascript', 'React']
-  },
-  'backend': {
-    title: 'Back-end',
+  'programming': {
+    title: 'Programming',
     color: 'yellow',
-    skills: ['Python', 'Java', 'Go', 'SQL']
+    skills: ['HTML/CSS/JS + React', 'Python', 'Java', 'Go']
   },
 }
 
@@ -52,16 +47,6 @@ const contactDetails = {
     text: 'LinkedIn',
     link: 'https://www.linkedin.com/in/jennifer-xie'
   },
-  'behance': {
-    icon: faSquareBehance,
-    text: 'Behance',
-    link: 'https://www.behance.net/xjenniferx150a'
-  },
-  'dribbble': {
-    icon: faSquareDribbble,
-    text: 'Dribbble',
-    link: 'https://dribbble.com/xjenniferxie'
-  }
 }
 
 function SkillItem({ skill }) {
@@ -96,8 +81,11 @@ function Home() {
             <div className='home-header-text'>
               <h1>Jennifer Xie</h1>
               <p>
-                Hey there! I'm a Game UI/UX Artist with previous experience as a 
-                UI/UX designer and software engineer at Twitter.
+                Hey there! I'm a Senior Game UI/UX designer at Jam City, working on 
+                the mobile RPG <a href='https://www.harrypotterhogwartsmystery.com/' target='_blank' rel='noreferrer'>
+                  Harry Potter: Hogwarts Mystery
+                </a>. I previously worked 
+                as a UI/UX Designer and Software Engineer at Twitter.
               </p>
             </div>
           </div>
@@ -133,9 +121,9 @@ function Home() {
             </a>
           </div>
           <p>
-            I specialize in UI/UX design, but my skills span a broad spectrum—
-            I have experience in everything from graphic design to 
-            programming React Apps and APIs. Here's an overview of my skillset:
+            I specialize in Game UI, working across UI Art, UX Design, and UI Development. 
+            My professional experience goes beyond that though—I've worked on everything 
+            from graphic design to programming. Here's an overview of my skillset:
           </p>
           <div className='skills-row'>
             {Object.keys(skillDetails).map((k) => <SkillItem skill={k} />)}

@@ -1,10 +1,10 @@
 :root {
   /* General colors */
-  --color-white: #FFFFFF;
+  --color-white: #FAF7F3;
   --color-black: #000000;
   --color-black-transparent: rgba(0,0,0,0.25);
   --color-blue-link: #0277BD;
-  --color-brown-100: #F9F6EF;
+  --color-brown-100: #F6ECDE;
   --color-brown-300: #B6977E;
   --color-brown-400: #A09277;
   --color-brown-400-transparent: rgba(160,146,119,0.4);
@@ -15,11 +15,10 @@
   --color-gold-500: #ab7f54;
 
   /* Home highlight colors */
-  --color-highlight-purple: #E0C6EF;
-  --color-highlight-pink: #EEC8DC;
-  --color-highlight-red: #ECC1B4;
-  --color-highlight-orange: #F7CFAB;
-  --color-highlight-yellow: #FFF1AF;
+  --color-highlight-purple: #E0C4ED;
+  --color-highlight-pink: #F7CCDD;
+  --color-highlight-red: #F9C8B2;
+  --color-highlight-yellow: #F8DCA0;
 
   /* Project colors */
   --color-green-base: #CEEAC5;

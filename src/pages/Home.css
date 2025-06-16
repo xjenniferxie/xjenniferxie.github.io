@@ -26,6 +26,15 @@
   margin-bottom: var(--grid-xlarge);
 }
 
+.home-header-text a {
+  color: var(--color-blue-link);
+  text-decoration: underline;
+}
+
+.home-header-text a:hover, .home-header-text a:active {
+  color: var(--color-medium-blue-shadow);
+}
+
 /* ABOUT */
 
 .about-section, .contact-section {
@@ -79,9 +88,13 @@
 .skills-item h5::before {
   content: '';
   position: absolute;
+  /* bottom: 4px;
+  left: 9px;
+  width: calc(100% - 4px);
+  height: 65%; */
   bottom: 1px;
-  left: 8px;
-  width: 100%;
+  left: 12px;
+  width: calc(100% - 4px);
   height: 50%;
   z-index: -1;
 }
