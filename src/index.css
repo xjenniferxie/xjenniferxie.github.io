@@ -1,10 +1,10 @@
 :root {
   /* General colors */
-  --color-white: #FAF7F3;
+  --color-white: #FFFFFF; /* FFFBF6 */
   --color-black: #000000;
   --color-black-transparent: rgba(0,0,0,0.25);
   --color-blue-link: #0277BD;
-  --color-brown-100: #F6ECDE;
+  --color-brown-100: #F9F2E8;
   --color-brown-300: #B6977E;
   --color-brown-400: #A09277;
   --color-brown-400-transparent: rgba(160,146,119,0.4);
