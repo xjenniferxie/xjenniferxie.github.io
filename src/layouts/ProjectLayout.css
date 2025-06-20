@@ -13,6 +13,10 @@
   margin-top: var(--grid-xsmall);
 }
 
+.project-content ul {
+  margin-top: var(--grid-xsmall);
+}
+
 /* Indent all lines except first line */
 .project-content p.numbered {
   text-indent: calc(-1 * var(--grid-large));
@@ -30,8 +34,8 @@
   filter: drop-shadow(0 0 12px var(--color-black-transparent));
 }
 
-/* every p that has a p or h6 before */
-.project-content p + p, .project-content h6 + p {
+/* every p that has a p or h6 before, or combo of ul & p */
+.project-content p + p, .project-content h6 + p, .project-content p + ul, .project-content ul + p {
   margin-top: 0.3rem;
 }
 
@@ -40,8 +44,8 @@
   margin-top: var(--grid-xlarge);
 }
 
-/* every img that has a p before */
-.project-content p + img {
+/* every img that has a p or ul before */
+.project-content p + img, .project-content ul + img {
   margin-top: var(--grid-small);
 }
 
@@ -55,17 +59,28 @@
 }
 
 /* PROJECT BANNER */
+.project-banner.hogwartsdiary {
+  background-image: linear-gradient(to bottom, var(--color-brown-base) 30%, var(--color-brown-shadow));
+}
+
+.project-banner.creature {
+  background-image: linear-gradient(to bottom, var(--color-light-green-base) 30%, var(--color-light-green-shadow));
+}
+
+.project-banner.spellbindingsequences {
+  background-image: linear-gradient(to bottom, var(--color-brown-base) 30%, var(--color-brown-shadow));
+}
+
+.project-banner.seasonalui {
+  background-image: linear-gradient(to bottom, var(--color-teal-base) 30%, var(--color-teal-shadow));
+}
 
 .project-banner.genshin {
-  background-image: linear-gradient(to bottom, var(--color-green-base) 30%, var(--color-green-shadow));
+  background-image: linear-gradient(to bottom, var(--color-light-green-base) 30%, var(--color-light-green-shadow));
 }
 
 .project-banner.mario {
   background-image: linear-gradient(to bottom, var(--color-navy-base) 30%, var(--color-navy-shadow));
-}
-
-.project-banner.blackjack {
-  background-image: linear-gradient(to bottom, var(--color-pink-base) 30%, var(--color-pink-shadow));
 }
 
 .project-banner.opensource {
@@ -76,9 +91,9 @@
   background-image: linear-gradient(to bottom, var(--color-medium-blue-base) 30%, var(--color-medium-blue-shadow));
 }
 
-.project-banner.capacity {
+/* .project-banner.capacity {
   background-image: linear-gradient(to bottom, var(--color-lavender-base) 30%, var(--color-lavender-shadow));
-}
+} */
 
 .project-banner .page-container {
   position: relative;
@@ -129,6 +144,50 @@
   margin-bottom: var(--grid-small);
 }
 
+/* COLUMN LAYOUT IN PROJECT PAGES */
+
+.project-columns {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.project-page .project-columns-item h5 {
+  margin-top: 0;
+}
+
+.project-content img.project-columns-item {
+  margin: 0;
+}
+
+.project-columns img#opensource-original {
+  height: 280px;
+}
+
+/* CALLOUT */
+
+.callout {
+  display: flex;
+  flex-direction: row;
+  background-color: #EBF5FB;
+  border: 2px solid #A3D6F6;
+  border-radius: 9px;
+  padding: var(--grid-medium) var(--grid-large);
+  margin-top: var(--grid-small);
+}
+
+/* every .callout that has an img or video before */
+img + .callout, video + .callout {
+  margin-top: var(--grid-xlarge);
+}
+
+.callout img.icon {
+  margin: 0;
+  margin-right: var(--grid-xsmall);
+  height: 1.4rem;
+}
+
 /* RESPONSIVE STYLES */
 
 /* Tablet mobile version */
@@ -153,6 +212,17 @@
 
   .similar-project-content {
     max-width: 500px;
+  }
+
+  .project-columns {
+    flex-direction: column;
+    gap: var(--grid-small);
+    margin-top: var(--grid-mega);
+  }
+
+  .project-columns img#opensource-original {
+    height: auto;
+    max-width: 410px;
   }
 }
 
@@ -197,5 +267,9 @@
   .similar-project-content {
     max-width: none;
     margin-bottom: var(--grid-mega);
+  }
+
+  .project-columns {
+    margin-top: var(--grid-large);
   }
 }

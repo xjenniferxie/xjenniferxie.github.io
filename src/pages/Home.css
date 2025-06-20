@@ -228,8 +228,6 @@
   .contact-content img {
     max-width: 525px;
     height: auto;
-    /* Safari: set object-fit to counteract height:auto not working */
-    object-fit: contain;
   }
 
   .contact-column {

@@ -6,13 +6,11 @@ import opensourceHifi1 from 'assets/opensource/opensource_hifi1.png'
 import opensourceHifi2 from 'assets/opensource/opensource_hifi2.png'
 import starIcon from 'assets/opensource/star_icon.svg'
 
-import 'pages/Opensource.css'
-
 function Opensource() {
   return (
     <div className='project-content'>
-      <div className='opensource-introduction'>
-        <div className='opensource-introduction-item'>
+      <div className='project-columns'>
+        <div className='project-columns-item'>
           <h5>Introduction</h5>
           <p>
             <a href='https://opensource.twitter.dev' target='_blank' rel='noreferrer'>
@@ -34,7 +32,7 @@ function Opensource() {
             2. Give the website the “look and feel” of Twitter’s branding.
           </p>
         </div>
-        <img src={opensourceOriginal} alt='' className='opensource-introduction-item' />
+        <img src={opensourceOriginal} alt='' className='project-columns-item' id='opensource-original' />
       </div>
 
       <h5>Lo-fi Mockups</h5>
@@ -67,10 +65,11 @@ function Opensource() {
       </p>
       <div className='callout'>
         <img src={starIcon} alt='' className='icon' />
-        <div className='callout-text'>
-          Check it out: <a href='https://opensource.twitter.dev' target='_blank' rel='noreferrer'>
+        <div>
+          <b>Check it out: <a href='https://opensource.twitter.dev' target='_blank' rel='noreferrer'>
           opensource.twitter.com
-        </a></div>
+          </a></b>
+        </div>
       </div>
     </div>
   )

@@ -21,18 +21,20 @@
   --color-highlight-yellow: #F8DCA0;
 
   /* Project colors */
-  --color-green-base: #CEEAC5;
-  --color-green-shadow: #9BC38F;
+  --color-teal-base: #024B54;
+  --color-teal-shadow: #14313B;
+  --color-brown-base: #6D5647;
+  --color-brown-shadow: #4E3A2D;
+  --color-light-green-base: #CEEAC5;
+  --color-light-green-shadow: #9BC38F;
   --color-navy-base: #313976;
   --color-navy-shadow: #171F58;
-  --color-pink-base: #F3D2E0;
-  --color-pink-shadow: #E9B8CC;
   --color-light-blue-base: #AFD9F3;
   --color-light-blue-shadow: #7CB8DD;
   --color-medium-blue-base: #4466AE;
   --color-medium-blue-shadow: #1E418C;
-  --color-lavender-base: #D6CCFF;
-  --color-lavender-shadow: #B0A6DC;
+  /* --color-lavender-base: #D6CCFF;
+  --color-lavender-shadow: #B0A6DC; */
 
   /* Font */
   --font-size-default: 1.1rem;
@@ -103,8 +105,13 @@ p {
   margin: 0;
 }
 
+ul {
+  margin: 0;
+}
+
 img {
   display: block;
+  object-fit: contain;
 }
 
 /* set width and center */

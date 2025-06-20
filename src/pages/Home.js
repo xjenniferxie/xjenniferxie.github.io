@@ -82,9 +82,9 @@ function Home() {
               <h1>Jennifer Xie</h1>
               <p>
                 Hey there! I'm a Senior Game UI/UX designer at Jam City, working on 
-                the mobile RPG <a href='https://www.harrypotterhogwartsmystery.com/' target='_blank' rel='noreferrer'>
+                the mobile RPG <i><a href='https://www.harrypotterhogwartsmystery.com/' target='_blank' rel='noreferrer'>
                   Harry Potter: Hogwarts Mystery
-                </a>. I previously worked 
+                </a></i>. I previously worked 
                 as a UI/UX Designer and Software Engineer at Twitter.
               </p>
             </div>
@@ -92,16 +92,20 @@ function Home() {
 
           <div className='projects-grid' id='projects'>
             <div className='projects-grid-row'>
+              <ProjectCard project='hogwartsdiary' />
+              <ProjectCard project='creature' />
+            </div>
+            <div className='projects-grid-row'>
+              <ProjectCard project='spellbindingsequences' />
+              <ProjectCard project='seasonalui' />
+            </div>
+            <div className='projects-grid-row'>
               <ProjectCard project='genshin' />
               <ProjectCard project='mario' />
             </div>
             <div className='projects-grid-row'>
               <ProjectCard project='kubernetes' />
               <ProjectCard project='opensource' />
-            </div>
-            <div className='projects-grid-row'>
-              <ProjectCard project='capacity' />
-              <ProjectCard project='placeholder' />
             </div>
           </div>
         </div>
@@ -121,9 +125,10 @@ function Home() {
             </a>
           </div>
           <p>
-            I specialize in Game UI, working across UI Art, UX Design, and UI Development. 
-            My professional experience goes beyond that though—I've worked on everything 
-            from graphic design to programming. Here's an overview of my skillset:
+            I specialize in Game UI, working across UI Art, UX Design, and UI 
+            Development. My professional experience goes beyond that though—I've 
+            worked on everything from graphic design to programming. Here's an 
+            overview of my skillset:
           </p>
           <div className='skills-row'>
             {Object.keys(skillDetails).map((k) => <SkillItem skill={k} />)}

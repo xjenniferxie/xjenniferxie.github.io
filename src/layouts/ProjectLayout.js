@@ -3,17 +3,29 @@ import { useParams } from 'react-router-dom'
 
 import projectDetails from 'constants.js'
 import ProjectCard from 'components/ProjectCard.js'
+import HogwartsDiary from 'pages/HogwartsDiary.js'
+import Creature from 'pages/Creature.js'
+import SpellbindingSequences from 'pages/SpellbindingSequences.js'
+import SeasonalUI from 'pages/SeasonalUI.js'
 import Genshin from 'pages/Genshin.js'
 import Mario from 'pages/Mario.js'
 import Blackjack from 'pages/Blackjack.js'
 import Opensource from 'pages/Opensource.js'
 import Kubernetes from 'pages/Kubernetes.js'
-import Capacity from 'pages/Capacity.js'
+// import Capacity from 'pages/Capacity.js'
 
 import 'layouts/ProjectLayout.css'
 
 function getProjectContent(project) {
   switch(project) {
+    case 'hogwartsdiary':
+      return <HogwartsDiary />
+    case 'creature':
+      return <Creature />
+    case 'spellbindingsequences':
+      return <SpellbindingSequences />
+    case 'seasonalui':
+      return <SeasonalUI />
     case 'genshin':
       return <Genshin />
     case 'mario':
@@ -24,8 +36,8 @@ function getProjectContent(project) {
       return <Opensource />
     case 'kubernetes':
       return <Kubernetes />
-    case 'capacity':
-      return <Capacity />
+    // case 'capacity':
+    //   return <Capacity />
     default:
       return <div />
   }
