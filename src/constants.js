@@ -1,3 +1,7 @@
+import spellbindingSequencesCard from 'assets/common/project_card_spellbindingsequences.png'
+import spellbindingSequencesBanner from 'assets/common/project_banner_spellbindingsequences.png'
+import seasonalUICard from 'assets/common/project_card_seasonalui.png'
+import seasonalUIBanner from 'assets/common/project_banner_seasonalui.png'
 import genshinCard from 'assets/common/project_card_genshin.png'
 import genshinBanner from 'assets/common/project_banner_genshin.png'
 import marioCard from 'assets/common/project_card_mario.png'
@@ -9,7 +13,6 @@ import kubernetesBanner from 'assets/common/project_banner_kubernetes.png'
 // import capacityCard from 'assets/common/project_card_capacity.png'
 // import capacityBanner from 'assets/common/project_banner_capacity.png'
 // import placeholderCard from 'assets/common/project_card_placeholder.png'
-// import blackjackBanner from 'assets/common/project_banner_blackjack.png'
 
 const projectDetails = {
   'hogwartsdiary': {
@@ -19,7 +22,7 @@ const projectDetails = {
     company: 'Harry Potter: Hogwarts Mystery',
     year: '2024',
     mode: 'dark',
-    similarProjects: ['creature', 'spellbindingsequences']
+    similarProjects: ['spellbindingsequences', 'creature']
   },
   'creature': {
     cardImage: genshinCard,
@@ -31,22 +34,24 @@ const projectDetails = {
     similarProjects: ['hogwartsdiary', 'spellbindingsequences']
   },
   'spellbindingsequences': {
-    cardImage: marioCard,
-    bannerImage: marioBanner,
+    cardImage: spellbindingSequencesCard,
+    bannerImage: spellbindingSequencesBanner,
     title: 'Spellbinding Sequences',
     company: 'Harry Potter: Hogwarts Mystery',
     year: '2023',
     mode: 'dark',
-    similarProjects: ['hogwartsdiary', 'creature']
+    similarProjects: ['seasonalui', 'genshin']
+    // similarProjects: ['hogwartsdiary', 'creature']
   },
   'seasonalui': {
-    cardImage: marioCard,
-    bannerImage: marioBanner,
+    cardImage: seasonalUICard,
+    bannerImage: seasonalUIBanner,
     title: 'Seasonal UI Backgrounds',
     company: 'Harry Potter: Hogwarts Mystery',
     year: '2023',
     mode: 'dark',
-    similarProjects: ['hogwartsdiary', 'spellbindingsequences']
+    similarProjects: ['spellbindingsequences', 'mario']
+    // similarProjects: ['hogwartsdiary', 'spellbindingsequences']
   },
   'genshin': {
     cardImage: genshinCard,
@@ -55,7 +60,8 @@ const projectDetails = {
     company: 'Personal Project',
     year: '2022',
     mode: 'light',
-    similarProjects: ['mario', 'opensource']
+    similarProjects: ['mario', 'spellbindingsequences']
+    // similarProjects: ['mario', 'creature']
   },
   'mario': {
     cardImage: marioCard,
@@ -64,7 +70,7 @@ const projectDetails = {
     company: 'Personal Project',
     year: '2022',
     mode: 'dark',
-    similarProjects: ['genshin', 'opensource']
+    similarProjects: ['genshin', 'seasonalui']
   },
   'opensource': {
     cardImage: opensourceCard,
@@ -73,7 +79,8 @@ const projectDetails = {
     company: 'Twitter',
     year: '2018',
     mode: 'light',
-    similarProjects: ['kubernetes', 'creature']
+    similarProjects: ['kubernetes', 'spellbindingsequences']
+    // similarProjects: ['kubernetes', 'creature']
   },
   'kubernetes': {
     cardImage: kubernetesCard,
@@ -82,7 +89,8 @@ const projectDetails = {
     company: 'Twitter',
     year: '2021',
     mode: 'dark',
-    similarProjects: ['opensource', 'creature']
+    similarProjects: ['opensource', 'spellbindingsequences']
+    // similarProjects: ['opensource', 'creature']
   },
   // 'capacity': {
   //   cardImage: capacityCard,
@@ -95,7 +103,7 @@ const projectDetails = {
   // },
   // 'placeholder': {
   //   cardImage: placeholderCard,
-  //   bannerImage: blackjackBanner,
+  //   bannerImage: capacityBanner,
   //   title: '',
   //   company: '',
   //   year: '',

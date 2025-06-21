@@ -9,7 +9,6 @@ import SpellbindingSequences from 'pages/SpellbindingSequences.js'
 import SeasonalUI from 'pages/SeasonalUI.js'
 import Genshin from 'pages/Genshin.js'
 import Mario from 'pages/Mario.js'
-import Blackjack from 'pages/Blackjack.js'
 import Opensource from 'pages/Opensource.js'
 import Kubernetes from 'pages/Kubernetes.js'
 // import Capacity from 'pages/Capacity.js'
@@ -30,8 +29,6 @@ function getProjectContent(project) {
       return <Genshin />
     case 'mario':
       return <Mario />
-    case 'blackjack':
-      return <Blackjack />
     case 'opensource':
       return <Opensource />
     case 'kubernetes':

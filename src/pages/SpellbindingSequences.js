@@ -18,7 +18,7 @@ function SpellbindingSequences() {
         magical visual theme that draws from the <i>Harry Potter</i> IP.
       </p>
 
-      <h5>Lo-fi Mockups</h5>
+      <h5>UI/UX Mockups</h5>
       <p>
         We identified that purchase cells should support the following:
       </p>
@@ -35,7 +35,7 @@ function SpellbindingSequences() {
       </ul>
       <img src={spellbindingSequencesLofi} alt='TODO_2025_IMAGE' />
 
-      <h5>Hi-fi Mockups</h5>
+      <h5>Visual Design</h5>
       <p>
         After brainstorming with the team, I explored 2 potential visual themes:
       </p>

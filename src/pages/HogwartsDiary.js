@@ -18,7 +18,7 @@ function HogwartsDiary() {
         the entire game to support the new gacha pack reward type.
       </p>
 
-      <h5>Lo-fi Mockups</h5>
+      <h5>UI/UX Mockups</h5>
       <p>
         The main page of the Hogwarts UI needed to pack in a lot of details. I 
         experimented with different layouts, looking for a way to clearly and 
@@ -31,7 +31,7 @@ function HogwartsDiary() {
       </p>
       <img src={kubedashBrainstorm2} alt='TODO_2025_IMAGE' />
 
-      <h5>Hi-fi Mockups</h5>
+      <h5>Visual Design</h5>
       <p>
         We knew we wanted to pursue a diary book concept for the event's 
         visual design, but there were still plenty of subsequent design 

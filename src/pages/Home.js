@@ -91,10 +91,10 @@ function Home() {
           </div>
 
           <div className='projects-grid' id='projects'>
-            <div className='projects-grid-row'>
+            {/* <div className='projects-grid-row'>
               <ProjectCard project='hogwartsdiary' />
               <ProjectCard project='creature' />
-            </div>
+            </div> */}
             <div className='projects-grid-row'>
               <ProjectCard project='spellbindingsequences' />
               <ProjectCard project='seasonalui' />
@@ -127,7 +127,7 @@ function Home() {
           <p>
             I specialize in Game UI, working across UI Art, UX Design, and UI 
             Development. My professional experience goes beyond that though—I've 
-            worked on everything from graphic design to programming. Here's an 
+            worked on everything from graphic design to programming! Here's an 
             overview of my skillset:
           </p>
           <div className='skills-row'>
