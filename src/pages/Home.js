@@ -81,7 +81,7 @@ function Home() {
             <div className='home-header-text'>
               <h1>Jennifer Xie</h1>
               <p>
-                Hey there! I'm a Senior Game UI/UX designer at Jam City, working on 
+                Hey there! I’m a Senior Game UI/UX designer at Jam City, working on 
                 the mobile RPG <i><a href='https://www.harrypotterhogwartsmystery.com/' target='_blank' rel='noreferrer'>
                   Harry Potter: Hogwarts Mystery
                 </a></i>. I previously worked 
@@ -126,8 +126,8 @@ function Home() {
           </div>
           <p>
             I specialize in Game UI, working across UI Art, UX Design, and UI 
-            Development. My professional experience goes beyond that though—I've 
-            worked on everything from graphic design to programming! Here's an 
+            Development. My professional experience goes beyond that though—I’ve 
+            worked on everything from graphic design to programming! Here’s an 
             overview of my skillset:
           </p>
           <div className='skills-row'>
