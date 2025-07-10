@@ -9,8 +9,8 @@ import starIcon from 'assets/opensource/star_icon.svg'
 function Opensource() {
   return (
     <div className='project-content'>
-      <div className='project-columns'>
-        <div className='project-columns-item'>
+      <div className='project-row'>
+        <div className='project-row-item'>
           <h5>Introduction</h5>
           <p>
             <a href='https://opensource.twitter.dev' target='_blank' rel='noreferrer'>
@@ -32,7 +32,7 @@ function Opensource() {
             2. Give the website the “look and feel” of Twitter’s branding.
           </p>
         </div>
-        <img src={opensourceOriginal} alt='' className='project-columns-item' id='opensource-original' />
+        <img src={opensourceOriginal} alt='' className='project-row-item' id='opensource-original' />
       </div>
 
       <h5>Lo-fi Mockups</h5>

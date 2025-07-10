@@ -40,7 +40,7 @@
 }
 
 /* every p that has an img or video before */
-.project-content img + p, .project-content video + p {
+.project-content img + p, .project-content video + p, .project-grid + p {
   margin-top: var(--grid-xlarge);
 }
 
@@ -60,11 +60,11 @@
 
 /* PROJECT BANNER */
 .project-banner.hogwartsdiary {
-  background-image: linear-gradient(to bottom, var(--color-brown-base) 30%, var(--color-brown-shadow));
+  background-image: linear-gradient(to bottom, var(--color-yellow-base) 30%, var(--color-yellow-shadow));
 }
 
 .project-banner.creature {
-  background-image: linear-gradient(to bottom, var(--color-light-green-base) 30%, var(--color-light-green-shadow));
+  background-image: linear-gradient(to bottom, var(--color-lime-green-base) 30%, var(--color-lime-green-shadow));
 }
 
 .project-banner.spellbindingsequences {
@@ -91,9 +91,9 @@
   background-image: linear-gradient(to bottom, var(--color-medium-blue-base) 30%, var(--color-medium-blue-shadow));
 }
 
-/* .project-banner.capacity {
+.project-banner.capacity {
   background-image: linear-gradient(to bottom, var(--color-lavender-base) 30%, var(--color-lavender-shadow));
-} */
+}
 
 .project-banner .page-container {
   position: relative;
@@ -144,25 +144,48 @@
   margin-bottom: var(--grid-small);
 }
 
-/* COLUMN LAYOUT IN PROJECT PAGES */
+/* ROW LAYOUT IN PROJECT PAGES */
 
-.project-columns {
+.project-row {
   display: flex;
   flex-direction: row;
   gap: 2.5rem;
   margin-top: 2.5rem;
 }
 
-.project-page .project-columns-item h5 {
+.project-row-item h5 {
   margin-top: 0;
 }
 
-.project-content img.project-columns-item {
+img.project-row-item {
   margin: 0;
 }
 
-.project-columns img#opensource-original {
+img#opensource-original.project-row-item {
   height: 280px;
+}
+
+img#creature-original.project-row-item {
+  height: 240px;
+}
+
+/* GRID FOR DIARY PAGE */
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--grid-xsmall);
+  margin-top: var(--grid-small);
+}
+
+.project-grid-item {
+  position: relative;
+  flex: 1;
+  width: calc((var(--grid-page-width) - var(--grid-small))/2);
+}
+
+img.project-grid-item {
+  margin: 0;
 }
 
 /* CALLOUT */
@@ -214,13 +237,18 @@ img + .callout, video + .callout {
     max-width: 500px;
   }
 
-  .project-columns {
+  .project-row {
     flex-direction: column;
     gap: var(--grid-small);
     margin-top: var(--grid-mega);
   }
 
-  .project-columns img#opensource-original {
+  .project-row-text-img {
+    gap: var(--grid-small);
+    margin-top: var(--grid-mega);
+  }
+
+  img#opensource-original.project-row-item, img#creature-original.project-row-item {
     height: auto;
     max-width: 410px;
   }
@@ -260,7 +288,7 @@ img + .callout, video + .callout {
   }
 
   /* every p that has an img or video before */
-  .project-content img + p, .project-content video + p {
+  .project-content img + p, .project-content video + p, .project-grid + p {
     margin-top: var(--grid-medium);
   }
 
@@ -269,7 +297,7 @@ img + .callout, video + .callout {
     margin-bottom: var(--grid-mega);
   }
 
-  .project-columns {
+  .project-row {
     margin-top: var(--grid-large);
   }
 }

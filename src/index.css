@@ -1,6 +1,6 @@
 :root {
   /* General colors */
-  --color-white: #FFFFFF; /* FFFBF6 */
+  --color-white: #FFFBF6;
   --color-black: #000000;
   --color-black-transparent: rgba(0,0,0,0.25);
   --color-blue-link: #0277BD;
@@ -21,6 +21,10 @@
   --color-highlight-yellow: #F8DCA0;
 
   /* Project colors */
+  --color-yellow-base: #F1CC77;
+  --color-yellow-shadow: #C29E53;
+  --color-lime-green-base: #C8E3A2;
+  --color-lime-green-shadow: #9DC37D;
   --color-teal-base: #024B54;
   --color-teal-shadow: #14313B;
   --color-brown-base: #563F30;
@@ -33,8 +37,8 @@
   --color-light-blue-shadow: #7CB8DD;
   --color-medium-blue-base: #4466AE;
   --color-medium-blue-shadow: #1E418C;
-  /* --color-lavender-base: #D6CCFF;
-  --color-lavender-shadow: #B0A6DC; */
+  --color-lavender-base: #D6CCFF;
+  --color-lavender-shadow: #B0A6DC;
 
   /* Font */
   --font-size-default: 1.1rem;

@@ -11,7 +11,7 @@ import Genshin from 'pages/Genshin.js'
 import Mario from 'pages/Mario.js'
 import Opensource from 'pages/Opensource.js'
 import Kubernetes from 'pages/Kubernetes.js'
-// import Capacity from 'pages/Capacity.js'
+import Capacity from 'pages/Capacity.js'
 
 import 'layouts/ProjectLayout.css'
 
@@ -33,8 +33,8 @@ function getProjectContent(project) {
       return <Opensource />
     case 'kubernetes':
       return <Kubernetes />
-    // case 'capacity':
-    //   return <Capacity />
+    case 'capacity':
+      return <Capacity />
     default:
       return <div />
   }

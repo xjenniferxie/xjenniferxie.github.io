@@ -91,10 +91,10 @@ function Home() {
           </div>
 
           <div className='projects-grid' id='projects'>
-            {/* <div className='projects-grid-row'>
+            <div className='projects-grid-row'>
               <ProjectCard project='hogwartsdiary' />
               <ProjectCard project='creature' />
-            </div> */}
+            </div>
             <div className='projects-grid-row'>
               <ProjectCard project='spellbindingsequences' />
               <ProjectCard project='seasonalui' />

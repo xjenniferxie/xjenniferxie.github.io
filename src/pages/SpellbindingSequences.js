@@ -1,7 +1,6 @@
 import spellbindingSequencesLofi from 'assets/spellbindingsequences/spellbindingsequences_lofi_mockup.png'
 import spellbindingSequencesHifi from 'assets/spellbindingsequences/spellbindingsequences_hifi_mockup.png'
-import spellbindingSequencesFinal from 'assets/spellbindingsequences/spellbindingsequences_final.mov'
-// TODO_2025: Convert mov to mp4
+import spellbindingSequencesFinal from 'assets/spellbindingsequences/spellbindingsequences_final.mp4'
 
 function SpellbindingSequences() {
   return (
@@ -13,7 +12,7 @@ function SpellbindingSequences() {
         where players must purchase each offer in order.
       </p>
       <p>
-        As the feature's UI Designer, my goal was to make the ladder purchase 
+        As the feature’s UI Designer, my goal was to make the ladder purchase 
         concept easy to use and understand for players, while giving the UI a 
         magical visual theme that draws from the <i>Harry Potter</i> IP.
       </p>
@@ -30,10 +29,10 @@ function SpellbindingSequences() {
           3 purchase types: Free, Game currency, or IAP (in-app purchase)
         </li>
         <li>
-          Arrow and lock icons to indicate the cells' purchase order
+          Arrow and lock icons to indicate the cells’ purchase order
         </li>
       </ul>
-      <img src={spellbindingSequencesLofi} alt='TODO_2025_IMAGE' />
+      <img src={spellbindingSequencesLofi} alt='4 different layouts for the purchase cells: 1 currency, 3 currencies, 1 model, and 1 model with 2 currencies' />
 
       <h5>Visual Design</h5>
       <p>
@@ -49,7 +48,7 @@ function SpellbindingSequences() {
           and the portraits that line the walls.
         </li>
       </ul>
-      <img src={spellbindingSequencesHifi} alt='TODO_2025_IMAGE' />
+      <img src={spellbindingSequencesHifi} alt='Map themed background, and picture frames with staircases background' />
 
       <h5>Final Feature</h5>
       <p>

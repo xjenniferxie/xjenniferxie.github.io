@@ -1,3 +1,7 @@
+import hogwartsDiaryCard from 'assets/common/project_card_hogwartsdiary.png'
+import hogwartsDiaryBanner from 'assets/common/project_banner_hogwartsdiary.png'
+import creatureCard from 'assets/common/project_card_creature.png'
+import creatureBanner from 'assets/common/project_banner_creature.png'
 import spellbindingSequencesCard from 'assets/common/project_card_spellbindingsequences.png'
 import spellbindingSequencesBanner from 'assets/common/project_banner_spellbindingsequences.png'
 import seasonalUICard from 'assets/common/project_card_seasonalui.png'
@@ -10,23 +14,23 @@ import opensourceCard from 'assets/common/project_card_opensource.png'
 import opensourceBanner from 'assets/common/project_banner_opensource.png'
 import kubernetesCard from 'assets/common/project_card_kubernetes.png'
 import kubernetesBanner from 'assets/common/project_banner_kubernetes.png'
-// import capacityCard from 'assets/common/project_card_capacity.png'
-// import capacityBanner from 'assets/common/project_banner_capacity.png'
+import capacityCard from 'assets/common/project_card_capacity.png'
+import capacityBanner from 'assets/common/project_banner_capacity.png'
 // import placeholderCard from 'assets/common/project_card_placeholder.png'
 
 const projectDetails = {
   'hogwartsdiary': {
-    cardImage: marioCard,
-    bannerImage: marioBanner,
+    cardImage: hogwartsDiaryCard,
+    bannerImage: hogwartsDiaryBanner,
     title: 'Hogwarts Diary',
     company: 'Harry Potter: Hogwarts Mystery',
     year: '2024',
-    mode: 'dark',
+    mode: 'light',
     similarProjects: ['spellbindingsequences', 'creature']
   },
   'creature': {
-    cardImage: genshinCard,
-    bannerImage: genshinBanner,
+    cardImage: creatureCard,
+    bannerImage: creatureBanner,
     title: 'Creature Needs V2',
     company: 'Harry Potter: Hogwarts Mystery',
     year: '2024',
@@ -40,8 +44,7 @@ const projectDetails = {
     company: 'Harry Potter: Hogwarts Mystery',
     year: '2023',
     mode: 'dark',
-    similarProjects: ['seasonalui', 'genshin']
-    // similarProjects: ['hogwartsdiary', 'creature']
+    similarProjects: ['hogwartsdiary', 'creature']
   },
   'seasonalui': {
     cardImage: seasonalUICard,
@@ -50,8 +53,7 @@ const projectDetails = {
     company: 'Harry Potter: Hogwarts Mystery',
     year: '2023',
     mode: 'dark',
-    similarProjects: ['spellbindingsequences', 'mario']
-    // similarProjects: ['hogwartsdiary', 'spellbindingsequences']
+    similarProjects: ['hogwartsdiary', 'spellbindingsequences']
   },
   'genshin': {
     cardImage: genshinCard,
@@ -60,8 +62,7 @@ const projectDetails = {
     company: 'Personal Project',
     year: '2022',
     mode: 'light',
-    similarProjects: ['mario', 'spellbindingsequences']
-    // similarProjects: ['mario', 'creature']
+    similarProjects: ['mario', 'creature']
   },
   'mario': {
     cardImage: marioCard,
@@ -79,8 +80,7 @@ const projectDetails = {
     company: 'Twitter',
     year: '2018',
     mode: 'light',
-    similarProjects: ['kubernetes', 'spellbindingsequences']
-    // similarProjects: ['kubernetes', 'creature']
+    similarProjects: ['kubernetes', 'creature']
   },
   'kubernetes': {
     cardImage: kubernetesCard,
@@ -89,18 +89,17 @@ const projectDetails = {
     company: 'Twitter',
     year: '2021',
     mode: 'dark',
-    similarProjects: ['opensource', 'spellbindingsequences']
-    // similarProjects: ['opensource', 'creature']
+    similarProjects: ['opensource', 'creature']
   },
-  // 'capacity': {
-  //   cardImage: capacityCard,
-  //   bannerImage: capacityBanner,
-  //   title: 'Capacity Dashboard',
-  //   company: 'Twitter',
-  //   year: '2020',
-  //   mode: 'light',
-  //   similarProjects: ['opensource', 'kubernetes']
-  // },
+  'capacity': {
+    cardImage: capacityCard,
+    bannerImage: capacityBanner,
+    title: 'Capacity Dashboard',
+    company: 'Twitter',
+    year: '2020',
+    mode: 'light',
+    similarProjects: ['opensource', 'kubernetes']
+  },
   // 'placeholder': {
   //   cardImage: placeholderCard,
   //   bannerImage: capacityBanner,
