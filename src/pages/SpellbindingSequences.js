@@ -13,7 +13,7 @@ function SpellbindingSequences() {
       </p>
       <p>
         As the feature’s UI Designer, my goal was to make the ladder purchase 
-        concept easy to use and understand for players, while giving the UI a 
+        concept easy to use and to understand for players, while giving the UI a 
         magical visual theme that draws from the <i>Harry Potter</i> IP.
       </p>
 
@@ -40,7 +40,7 @@ function SpellbindingSequences() {
       </p>
       <ul>
         <li>
-          <b>Marauder's Map</b> — Playing on the idea that the moving footsteps 
+          <b>Marauder’s Map</b> — Playing on the idea that the moving footsteps 
           guide you between each cell.
         </li>
         <li>

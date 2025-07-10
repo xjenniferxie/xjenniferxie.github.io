@@ -59,9 +59,9 @@ function Opensource() {
 
       <h5>Final Website</h5>
       <p>
-        I built the site's front-end using HTML/CSS/Javascript and Twitter's 
+        I built the site’s front-end using HTML/CSS/Javascript and Twitter’s 
         internal design system, and another intern wrote the back-end scripts 
-        to populate each project's information.
+        to populate each project’s information.
       </p>
       <div className='callout'>
         <img src={starIcon} alt='' className='icon' />

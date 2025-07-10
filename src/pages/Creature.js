@@ -14,7 +14,7 @@ function Creature() {
           <h5>Introduction</h5>
           <p>
             <i>Harry Potter: Hogwarts Mystery</i>’s magical creature system is one 
-            of the player bases’s favorite features, so we decided it deserved 
+            of the player base’s favorite features, so we decided it deserved 
             some serious quality of life improvements and feature updates.
           </p>
           <p>
@@ -38,7 +38,7 @@ function Creature() {
       </p>
       <img src={creatureOverview1} alt='Creatures Overview UI. Table of creatures, with information about the selected creature.' />
       <p>
-        These are all the different states a creature's cell and details panel 
+        These are all the different states a creature’s cell and details panel 
         can be in:
       </p>
       <img src={creatureOverview2} alt='5 different states of creatures: owned, owned on active expedition, adoptable, adoptable and locked, and adoptable on sale' />

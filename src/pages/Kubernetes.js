@@ -19,19 +19,19 @@ function Kubernetes() {
       </p>
       <h6>Problems</h6>
       <p className='numbered'>
-        1. The Kubernetes dashboard's page structure was unnecessarily 
+        1. The Kubernetes dashboard’s page structure was unnecessarily 
         drawn out—users needed to navigate through many pages and tabs before 
         they would reach any useful information.
       </p>
       <p className='numbered'>
-        2. A workload's information was spread out across multiple pages 
-        and tabs, and each page didn't fully utilize the screen space.
+        2. A workload’s information was spread out across multiple pages 
+        and tabs, and each page didn’t fully utilize the screen space.
       </p>
 
       <h5>Brainstorming</h5>
       <p className='numbered'>
         <b>1. Dashboard structure:</b> How can we reduce the number of steps 
-        users take to reach the information they want?
+        users must take to reach the information they want?
       </p>
       <img src={kubedashBrainstorm1} alt='Kubernetes Dashboard page structure diagram' />
       <p className='numbered'>
