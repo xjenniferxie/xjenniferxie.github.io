@@ -9,7 +9,7 @@ import headerIllustration from 'assets/home/header_illustration.png'
 import footerIllustration from 'assets/home/footer_illustration.png'
 import resumeButton from 'assets/home/resume_button.png'
 import resumeHoverButton from 'assets/home/resume_button_hover.png'
-import resume from 'assets/home/Jennifer_Xie_Resume_2022.pdf'
+import resume from 'assets/home/Jennifer_Xie_Resume_2025.pdf'
 
 import 'pages/Home.css'
 
@@ -25,7 +25,7 @@ const skillDetails = {
     skills: ['Figma']
   },
   'dev': {
-    title: 'UI Development',
+    title: 'UI Implementation',
     color: 'red',
     skills: ['Unity', 'C#', 'Lua']
   },
@@ -84,8 +84,8 @@ function Home() {
                 Hey there! I’m a Senior Game UI/UX designer at Jam City, working on 
                 the mobile RPG <i><a href='https://www.harrypotterhogwartsmystery.com/' target='_blank' rel='noreferrer'>
                   Harry Potter: Hogwarts Mystery
-                </a></i>. I previously worked 
-                as a UI/UX Designer and Software Engineer at Twitter.
+                </a></i>. I previously worked as a UI/UX Designer and Software 
+                Engineer II at Twitter.
               </p>
             </div>
           </div>
@@ -126,7 +126,7 @@ function Home() {
           </div>
           <p>
             I specialize in Game UI, working across UI Art, UX Design, and UI 
-            Development. My professional experience goes beyond that though—I’ve 
+            Implementation. My professional experience goes beyond that though—I’ve 
             worked on everything from graphic design to programming! Here’s an 
             overview of my skillset:
           </p>
