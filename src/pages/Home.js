@@ -27,12 +27,12 @@ const skillDetails = {
   'dev': {
     title: 'UI Implementation',
     color: 'red',
-    skills: ['Unity', 'C#', 'Lua']
+    skills: ['Unity', 'Unreal', 'C#', 'C++', 'Lua']
   },
   'programming': {
     title: 'Programming',
     color: 'yellow',
-    skills: ['HTML/CSS/JS + React', 'Python', 'Java', 'Go']
+    skills: ['HTML/CSS/JavaScript', 'React', 'Python', 'Java', 'Go']
   },
 }
 
