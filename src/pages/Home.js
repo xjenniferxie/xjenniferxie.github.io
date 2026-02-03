@@ -101,10 +101,10 @@ function Home() {
             </div>
             <div className='projects-grid-row'>
               <ProjectCard project='genshin' />
-              <ProjectCard project='mario' />
+              <ProjectCard project='kubernetes' />
             </div>
             <div className='projects-grid-row'>
-              <ProjectCard project='kubernetes' />
+              <ProjectCard project='capacity' />
               <ProjectCard project='opensource' />
             </div>
           </div>
