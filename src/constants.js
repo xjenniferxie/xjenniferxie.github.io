@@ -80,7 +80,7 @@ const projectDetails = {
     company: 'Twitter',
     year: '2018',
     mode: 'light',
-    similarProjects: ['kubernetes', 'capacity']
+    similarProjects: ['kubernetes', 'creature']
   },
   'kubernetes': {
     cardImage: kubernetesCard,
@@ -89,7 +89,7 @@ const projectDetails = {
     company: 'Twitter',
     year: '2021',
     mode: 'dark',
-    similarProjects: ['opensource', 'capacity']
+    similarProjects: ['opensource', 'creature']
   },
   'capacity': {
     cardImage: capacityCard,
