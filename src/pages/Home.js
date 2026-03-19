@@ -9,7 +9,7 @@ import headerIllustration from 'assets/home/header_illustration.png'
 import footerIllustration from 'assets/home/footer_illustration.png'
 import resumeButton from 'assets/home/resume_button.png'
 import resumeHoverButton from 'assets/home/resume_button_hover.png'
-import resume from 'assets/home/Jennifer_Xie_Resume_2025_2.pdf'
+import resume from 'assets/home/Jennifer_Xie_Resume_2025.pdf'
 
 import 'pages/Home.css'
 

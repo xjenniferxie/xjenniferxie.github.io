@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
-import resume from 'assets/home/Jennifer_Xie_Resume_2025_2.pdf'
+import resume from 'assets/home/Jennifer_Xie_Resume_2025.pdf'
 
 import 'layouts/NavLayout.css'
 
