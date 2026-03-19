@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f859f1a7.css",
-    "main.js": "/static/js/main.83727067.js",
+    "main.js": "/static/js/main.b7f0d20b.js",
     "static/js/787.8f1436d7.chunk.js": "/static/js/787.8f1436d7.chunk.js",
     "static/media/diary_final_video.mp4": "/static/media/diary_final_video.afe4d7c5bb85d18955e8.mp4",
     "static/media/spellbindingsequences_final.mp4": "/static/media/spellbindingsequences_final.f98122cf1e74dc4fbc64.mp4",
@@ -67,7 +67,7 @@
     "static/media/header_illustration.png": "/static/media/header_illustration.2bad3a7ec0ea46d50949.png",
     "static/media/capacity_user_research.png": "/static/media/capacity_user_research.9bd27385d247c3ea12d1.png",
     "static/media/opensource_lofi2.png": "/static/media/opensource_lofi2.676d874521509cd57d4a.png",
-    "static/media/Jennifer_Xie_Resume_2025_2.pdf": "/static/media/Jennifer_Xie_Resume_2025_2.f6c481e82d5864cf173f.pdf",
+    "static/media/Jennifer_Xie_Resume_2025.pdf": "/static/media/Jennifer_Xie_Resume_2025.9817e691388b99834ba3.pdf",
     "static/media/opensource_original.png": "/static/media/opensource_original.a6adf161b93b6d770f4f.png",
     "static/media/resume_button.png": "/static/media/resume_button.1a54f75d0374b0a9cdff.png",
     "static/media/resume_button_hover.png": "/static/media/resume_button_hover.dcdbff90840295da85ad.png",
@@ -75,11 +75,11 @@
     "static/media/bullhorn_icon.svg": "/static/media/bullhorn_icon.0a54c35cb115ec1babe0f39c307b5a16.svg",
     "static/media/star_icon.svg": "/static/media/star_icon.3416b9140d27f4bb72f1d54f25b4b1ce.svg",
     "main.f859f1a7.css.map": "/static/css/main.f859f1a7.css.map",
-    "main.83727067.js.map": "/static/js/main.83727067.js.map",
+    "main.b7f0d20b.js.map": "/static/js/main.b7f0d20b.js.map",
     "787.8f1436d7.chunk.js.map": "/static/js/787.8f1436d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f859f1a7.css",
-    "static/js/main.83727067.js"
+    "static/js/main.b7f0d20b.js"
   ]
 }
